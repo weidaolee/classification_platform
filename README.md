@@ -1,8 +1,3 @@
----
-title: 'Pytorch Classification Experiment Platform'
-disqus: hackmd
----
-
 Pytorch Classification Experiment Platform
 ===
 ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
@@ -65,8 +60,8 @@ $ tensorboard [--logdir PREFIX] [--port PORT]
 
 # Appendix and FAQ
 
-:::info
+
 **Find this document incomplete?** Leave a comment!
-:::
+
 
 ###### tags: `pytorch` `classification` `mulit-class` `regression`
