@@ -69,6 +69,7 @@ class Evaluator():
                 pred = net(images)
                 loss = criterion(pred, target)
 
+                orig_pred = pred
                 pred = (pred >= 0.5).float()
                 target = target.data.float()
 
@@ -129,7 +130,7 @@ class Evaluator():
                     'Pleural_Thickening',
                     'Pneumonia',
                     'Pneumothorax',
-                ]] = pred.cpu().numpy()
+                ]] = orig_pred.cpu().numpy()
 
                 res.to_csv(os.path.join(res_dir, f'{i_step}.csv'),
                            index=False,

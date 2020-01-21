@@ -1,0 +1,47 @@
+## better python
+tqdm
+pyhocon
+
+## data processing
+numpy
+scipy
+pandas
+
+## notebook
+ipython
+jupyter
+notebook
+
+## deep learning
+# tensorflow
+tensorflow-gpu
+tensorboard==1.14.0
+keras
+
+# pytorch
+torch==1.2.0
+torchvision==0.4.0
+torchsummary==1.5.1
+tensorboardX==1.8
+
+## machine learning
+scikit-learn
+
+## image processing
+pillow
+scikit-image
+imgaug
+imageio
+imageio-ffmpeg
+moviepy
+scikit-video
+opencv-python
+
+## project dependence
+# PyYAML>=4.2b1
+Cython
+# pycocotools==2.0.0
+
+## emacs
+python-language-server[all]
+jedi<0.15
