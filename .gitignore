@@ -1,0 +1,8 @@
+env
+data
+logs
+results
+checkpoints
+train_valid_entry.csv
+test_entry.csv
+__pycache__
