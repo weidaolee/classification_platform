@@ -9,8 +9,7 @@ Pytorch Classification Experiment Platform
 
 # Introduction
 This is a cinputer vision deep learning experimental platform for Pytorch. With just one line of Linux command you can do the following: 
-* Training neural network for muilti classifion task.
-* Training with muilti gpus.
+* Train a neural network for muilti classifion task with single or muilti GPUs.
 * Use acc, precision, recall, f1 score, confusion matrix to evaluate the model.
 * Use tensorboard to record and visualize model performance.
 * Save each checkpoint.
