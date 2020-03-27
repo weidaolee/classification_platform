@@ -132,7 +132,7 @@ class Evaluator():
                     'Pneumothorax',
                 ]] = orig_pred.cpu().numpy()
 
-                res.to_csv(os.path.join(res_dir, f'{i_step}.csv'),
+                res.to_csv(os.path.join(res_dir, f'{mode}_{i_step}.csv'),
                            index=False,
                            mode='a')
 
